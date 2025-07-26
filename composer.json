@@ -1,5 +1,5 @@
 {
-    "name": "coderkungfu/php-queue",
+    "name": "inventory management system for a wholesalesh/php-queue",
     "description": "A unified front-end for different queuing backends. Includes a REST server, CLI interface and daemon runners.",
     "keywords": ["queue", "transaction"],
     "homepage": "http://github.com/CoderKungfu/php-queue",
@@ -8,8 +8,8 @@
     "version": "1.0.1",
     "authors": [
         {
-            "name": "Michael Cheng",
-            "email": "mcheng.work@gmail.com"
+            "name": "Emanuel chiddi-bartz",
+            "email": "chiddimanuel21@gmail.com"
         }
     ],
     "repositories": [
