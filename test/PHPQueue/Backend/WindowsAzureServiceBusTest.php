@@ -20,7 +20,7 @@ class WindowsAzureServiceBusTest extends \PHPUnit_Framework_TestCase
 
     public function testAdd()
     {
-        $data = array('1','Willy','Wonka');
+        $data = array('1','Willy','Wonka', 'dante');
         $result = $this->object->add($data);
         $this->assertTrue($result);
     }
@@ -32,7 +32,7 @@ class WindowsAzureServiceBusTest extends \PHPUnit_Framework_TestCase
     {
         $result = $this->object->get();
         $this->assertNotEmpty($result);
-        $this->assertEquals(array('1','Willy','Wonka'), $result);
+        $this->assertEquals(array('1','Willy','Wonka','jonte'), $result);
         $this->object->release($this->object->last_job_id);
     }
 
